@@ -17,3 +17,6 @@ nodeAppTestSample/eslintrc
 
 # To run tests:
 npm run test
+
+# To test one single file
+ npm test -- index 
