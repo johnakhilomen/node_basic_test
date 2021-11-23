@@ -1,0 +1,32 @@
+{
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "script",
+        "ecmaFeatures": {}
+    },
+    "rules": {
+        "no-unused-vars": "error",
+        "no-console": "warn",
+       "indent":[
+           "error", 2
+       ],
+       "quotes": [
+           "error", "single"
+       ],
+       "linebreak-style":[
+           "error", "unix"
+       ],
+       "semi": [
+           "error", "always"
+       ],
+       // enforce rules for ===
+       "eqeqeq": "error"
+    },
+    "env": {
+        // The application's environment is client side 
+        "browser": true,
+        // The application's environment is solely node 
+         "node": true,
+         "es6": true
+    }
+}

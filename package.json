@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "test": "mocha --recursive",
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "lint" : "npx eslint **.js --fix"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "mocha": "^8.1.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0"
   }
 }
