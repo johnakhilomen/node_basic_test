@@ -12,7 +12,7 @@ module.exports.Sum = (a, b) =>
   {
     throw new TypeError('Function must be called with two integers');
   }
-  return a * b;
+  return a + b;
 };
 
 module.exports.SumWithPromise = (a,b) => {
